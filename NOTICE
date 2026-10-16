@@ -1,0 +1,7 @@
+AgentBar
+Copyright (c) 2026 Kan Kunnawat
+
+Portions of the usage-fetching logic (endpoint selection, credential file
+formats, token refresh flows) are derived from CodexBar
+(https://github.com/steipete/CodexBar), Copyright (c) Peter Steinberger,
+released under the MIT License.

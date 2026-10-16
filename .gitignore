@@ -1,0 +1,18 @@
+.build/
+dist/
+.DS_Store
+.claude/*
+!.claude/settings.json
+!.claude/skills/
+CLAUDE.local.md
+.superpowers/
+.handoffs/
+
+# Local-only: design docs, handoffs, and agent tooling stay off the public repo.
+docs/
+HANDOFF.md
+PRODUCT.md
+DESIGN.md
+.agents/
+.codex/
+.impeccable/

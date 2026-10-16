@@ -1,0 +1,12 @@
+excluded:
+  - .build
+  - dist
+  - .claude
+
+disabled_rules:
+  - trailing_comma # codebase uses trailing commas in collection literals
+
+line_length: 140
+
+identifier_name:
+  min_length: 1 # tests use short locals like `c`, `s`
