@@ -70,8 +70,8 @@ struct MenuView: View {
                     }
                 }
             }
-            // Limits and cost are peers (PRODUCT.md #1): the combined total reads
-            // at body strength, not as footer telemetry.
+            // Limits and cost are peers: the combined total reads at body
+            // strength, not as footer telemetry.
             if let costLine = RowPresentation.footerCostLine(store.totalCost) {
                 Text(costLine)
                     .font(.callout).monospacedDigit().foregroundStyle(.secondary)

@@ -73,7 +73,7 @@ public enum RowPresentation {
 
     /// Row cost caption: today's estimate alone ("$6.40"), under the percent
     /// reading. nil when there is no cost data at all — the row omits the
-    /// caption rather than faking $0 (DESIGN.md: omitted, never faked).
+    /// caption rather than faking $0.
     public static func rowCostCaption(_ cost: UsageCost?) -> String? {
         guard let cost, !cost.isZero else { return nil }
         return dollars(cost.today)
