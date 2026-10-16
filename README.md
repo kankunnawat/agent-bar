@@ -2,6 +2,8 @@
 
 A macOS menu bar app that shows Claude Code, Codex, and Cursor usage limits across multiple accounts.
 
+<img src=".github/screenshot.png" width="460" alt="AgentBar dropdown with Claude, Codex, and Cursor accounts, usage meters, and cost estimates">
+
 The menu bar icon shows the most-constrained account.
 The dropdown lists every account with session and weekly meters, reset countdowns, a pace projection, and a usage history sparkline.
 It also shows the Anthropic, OpenAI, and Cursor status pages.
